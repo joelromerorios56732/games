@@ -25,7 +25,7 @@
                             <int id="1" val="1"/>
                             <int id="2" val="10"/>
                             <int id="3" val="0"/>
-                            <int id="4" val="10"/>
+                            <int id="4" val="-10"/>
                         </push-shove>
                     </group>
                     <keystate comment="false" id="0" x="0" y="0">
@@ -35,21 +35,6 @@
                 </else-if>
             </group>
         </step>
-    </group>
-    <group eventID="1" id="2">
-        <set-dxy comment="false" x="708" y="137">
-            <ACTOR eid="this" id="0"/>
-            <int id="1" val="0"/>
-            <int id="2" val="-10"/>
-        </set-dxy>
-    </group>
-    <group eventID="1" id="4">
-        <push-shove2 comment="false" x="434" y="263">
-            <ACTOR eid="lastcreated" id="0"/>
-            <int id="1" val="1"/>
-            <int id="2" val=""/>
-            <int id="3" val=""/>
-        </push-shove2>
     </group>
     <group eventID="1" id="-1"/>
 </groups>

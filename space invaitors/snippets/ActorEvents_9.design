@@ -5,9 +5,13 @@
             <group eventID="1" id="-1">
                 <create-actor3 comment="false" x="26" y="40">
                     <actortype eid="9" id="0"/>
-                    <int id="1" val="0"/>
-                    <int id="2" val="20"/>
-                    <int id="3" val="0"/>
+                    <screen-wh comment="false" id="1" x="0" y="0">
+                        <int id="0" val="1"/>
+                    </screen-wh>
+                    <grav-xy comment="false" id="2" x="0" y="0">
+                        <int id="0" val="0"/>
+                    </grav-xy>
+                    <int id="3" val="1"/>
                 </create-actor3>
             </group>
         </step>
