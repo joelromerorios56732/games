@@ -2,30 +2,33 @@
 <groups>
     <group eventID="1" id="0">
         <step comment="false" x="15" y="15">
-            <group eventID="1" id="-1">
-                <actors-of-type3 comment="false" x="26" y="40">
-                    <group eventID="1" id="-1"/>
-                    <actortype eid="4" id="0"/>
-                </actors-of-type3>
-            </group>
+            <group eventID="1" id="-1"/>
         </step>
     </group>
+    <group eventID="1" id="1">
+        <actors-of-type3 comment="false" x="15" y="112">
+            <group eventID="1" id="-1"/>
+            <actortype eid="4" id="0"/>
+        </actors-of-type3>
+    </group>
     <group eventID="1" id="-1">
-        <actor-of-type comment="false" x="93" y="46"/>
+        <actor-of-type comment="false" x="601" y="153"/>
     </group>
     <group eventID="2" id="0">
-        <event-actor-create-kill comment="false" x="15" y="15">
+        <event-custom comment="false" x="15" y="15">
             <group eventID="2" id="-1"/>
-            <int id="0" val="1"/>
-            <ACTOR eid="this" id="1"/>
-        </event-actor-create-kill>
+            <int id="0" val=""/>
+        </event-custom>
     </group>
     <group eventID="2" id="-1"/>
     <group eventID="3" id="0">
-        <event-custom comment="false" x="15" y="15">
-            <group eventID="3" id="-1"/>
-            <int id="0" val="hit"/>
-        </event-custom>
+        <init comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <set-val-11-2 comment="false" x="26" y="40">
+                    <int id="0" val="3"/>
+                </set-val-11-2>
+            </group>
+        </init>
     </group>
     <group eventID="3" id="-1"/>
 </groups>
